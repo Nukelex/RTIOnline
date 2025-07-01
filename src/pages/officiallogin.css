@@ -1,0 +1,103 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  background: #f7f7f7;
+  height: 100vh;
+  justify-content: center;
+}
+
+.login-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #003399;
+  margin-bottom: 10px;
+}
+
+.login-box {
+  background: white;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-width: 300px;
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-left: 10px;
+  background: #f9f9f9;
+}
+
+.input-group .icon {
+  margin-right: 8px;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  flex: 1;
+  background: transparent;
+}
+
+.captcha-section {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  justify-content: space-between;
+}
+
+.captcha-image {
+  background: #f0f0f0;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.refresh-button {
+  border: none;
+  background: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.captcha-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-button {
+  width: 100%;
+  background: #6c757d;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.forgot-password {
+  font-size: 14px;
+}
+
+.forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+}
